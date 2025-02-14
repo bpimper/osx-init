@@ -12,25 +12,25 @@ formula_list=(
   zsh-syntax-highlighting
 )
 cask_list=(
-  istat-menus
+  istat-menus@6
   raycast
   the-unarchiver
-  adobe-creative-cloud
   authy
   bitwarden
   telegram
-  logitune
   spotify
   vlc
   qview
   google-chrome
   firefox
-  steam
-  discord
-  league-of-legends
   vscodium
   iterm2
   font-hack-nerd-font
+  logitune
+  adobe-creative-cloud
+  steam
+  discord
+  league-of-legends
 )
 
 # Download & Install Homebrew
@@ -65,6 +65,6 @@ mv ./zshrc ~/.zshrc
 mv ./com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.plist
 
 # Appstore apps
-open https://apps.apple.com/us/app/dropover/id1355679052
+# open https://apps.apple.com/us/app/dropover/id1355679052
 
 exit
