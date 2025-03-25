@@ -15,21 +15,22 @@ cask_list=(
   istat-menus@6
   raycast
   the-unarchiver
+  qview
   authy
   bitwarden
   telegram
   spotify
   vlc
-  qview
+  jellyfin-media-player
   google-chrome
   firefox
   vscodium
   iterm2
   font-hack-nerd-font
-  logitune
   adobe-creative-cloud
-  steam
   discord
+  steam
+  logitune
   league-of-legends
 )
 
@@ -66,5 +67,11 @@ mv ./com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.pli
 
 # Appstore apps
 # open https://apps.apple.com/us/app/dropover/id1355679052
+
+# Dark mode related OSX settings
+# Toggle Reduce Transparency
+defaults write com.apple.universalaccess reduceTransparency 1
+# Enable system dark mode
+sudo defaults write /Library/Preferences/.GlobalPreferences.plist _HIEnableThemeSwitchHotKey -bool true
 
 exit
