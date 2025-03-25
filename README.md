@@ -1,6 +1,6 @@
 # init.sh
 
-Initialise your newly purchased Mac.
+Initialise Your newly purchased Mac.
 
 ## Description
 
