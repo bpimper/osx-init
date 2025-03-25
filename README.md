@@ -10,18 +10,18 @@ A script to install Homebrew and use it to install wide variety of apps.
 
 ### Installing
 
-* Clone the repository
+Clone the repository
 ```
 code git clone https://github.com/bpimper/osx-init.git
 ```
 
 ### Executing program
 
-* Add execution rights for the script.
+Add execution rights for the script.
 ```
 code chmod +x ./init.sh
 ```
-* Run the script
+Run the script
 ```
 code ./init.sh
 ```
