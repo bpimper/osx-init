@@ -14,6 +14,9 @@ formula_list=(
 cask_list=(
   istat-menus@6
   raycast
+  resilio-sync
+  google-drive
+  keka
   the-unarchiver
   qview
   authy
@@ -22,8 +25,10 @@ cask_list=(
   spotify
   vlc
   jellyfin-media-player
-  google-chrome
+  brave-browser
   firefox
+  google-chrome
+  microsoft-edge
   vscodium
   iterm2
   font-hack-nerd-font
@@ -73,5 +78,9 @@ mv ./com.googlecode.iterm2.plist ~/Library/Preferences/com.googlecode.iterm2.pli
 defaults write com.apple.universalaccess reduceTransparency 1
 # Enable system dark mode
 sudo defaults write /Library/Preferences/.GlobalPreferences.plist _HIEnableThemeSwitchHotKey -bool true
+
+# Connecting for SMB shares
+# Finder needs running
+open 'smb://username:password@server/share'
 
 exit
